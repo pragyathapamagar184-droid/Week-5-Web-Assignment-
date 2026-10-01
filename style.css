@@ -1,0 +1,113 @@
+/* General Page Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Card Container (ID Selector) */
+#card-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Profile Image (Class Selector) */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #007bff;
+}
+
+/* User Name (ID Selector) */
+#user-name {
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  color: #2c3e50;
+}
+
+/* User Title (Class Selector) */
+.user-title {
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  color: #007bff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* User Stats Container & Badges (Class Selectors) */
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.stat-badge {
+  background-color: #e9ecef;
+  color: #495057;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+/* Bio Description (ID Selector) */
+#user-bio {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Contact Links Container & Buttons (Class Selectors) */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Google Doc Link Section (Class and ID Selectors) */
+.shortcut-doc {
+  border-top: 1px solid #eeeeee;
+  padding-top: 15px;
+}
+
+#shortcuts-link {
+  color: #28a745;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#shortcuts-link:hover {
+  text-decoration: underline;
+}
